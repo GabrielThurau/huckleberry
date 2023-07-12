@@ -9,4 +9,25 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+.max-width-wrapper {
+  margin: 2rem 0rem;
+  padding: 0.3rem 2.3rem;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  border-top: 10vh solid hsl(0deg, 0%, 40%);
+  border-bottom: 10vh solid hsl(0deg, 0%, 40%);
+  outline: 0.5rem solid hsl(0deg, 0%, 60%);
+}
+
+.indented-heading {}
+
+.gray-fw {
+  width: 100%;
+  background: hsl(0deg, 0%, 60%);
+  height: .3rem;
+}
