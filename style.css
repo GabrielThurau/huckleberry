@@ -10,7 +10,7 @@ body {
 }
 
 .max-width-wrapper {
-  padding: 0.3rem 2.3rem;
+  padding: 0.3rem 1.3rem;
 }
 
 strong {
@@ -25,13 +25,17 @@ main {
   margin: 2rem 0rem;
 }
 
-.indented-heading {}
+.indented-heading {
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 0.5rem solid hsl(45deg, 100%, 40%);
+  padding: 0.5rem 1rem;
+  margin-left: -20px;
+}
 
 .gray-fw {
   width: 100%;
   background: hsl(0deg, 0%, 60%);
   height: .5rem;
-
 }
 
 .gray-fw.bottom {
