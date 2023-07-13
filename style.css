@@ -11,13 +11,27 @@ body {
 
 /* Mobile */
 
-.max-width-wrapper {
+div.max-width-wrapper {
   padding: 0.3rem 1.3rem;
+}
+
+.borders-only {
+  max-width: 1100px;
+  border-top: 0.5rem solid hsl(0deg, 0%, 60%);
+  margin: 0 auto;
 }
 
 .max-width-wrapper {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.card {
+  border-bottom: 0.5rem solid hsl(0deg, 0%, 60%);
+}
+
+div.card p {
+  padding-left: 1rem;
 }
 
 strong {
@@ -37,7 +51,7 @@ main {
   background: hsl(45deg, 100%, 50%);
   border-bottom: 0.5rem solid hsl(45deg, 100%, 40%);
   padding: 0.5rem 1rem;
-  margin-left: -20px;
+  width: 90%;
 }
 
 .gray-fw {
@@ -92,6 +106,14 @@ main {
     border-top: 0.5rem solid hsl(0deg, 0%, 60%);
     margin: 0 auto;
   }
+
+  main {
+    margin: 0.5rem 0rem;
+  }
+
+  /* .max-width-wrapper {
+    padding: 0;
+  } */
 
 
 }
